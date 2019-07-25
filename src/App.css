@@ -1,0 +1,112 @@
+body
+{
+  background-color: 		#E8E8E8;
+}
+ .bar {
+  fill: #acdee7;
+} 
+.navbar{ 
+  font-family: 'Lora', serif;
+}
+.navbar-nav {
+  align-items: center; 
+
+}
+.axis {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #000;
+
+}
+
+.x.axis path {
+  display: none;
+  
+}
+
+.y.axis text {
+  fill: #000;
+  
+}
+
+.tooltip {
+  background: #b3b7bd;
+  border: 1;
+  border-radius: 29px;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 120px;
+  padding: 10px;
+  pointer-events: none;
+
+  text-align: center;
+  width: 500px;
+  margin-left: 600px;
+ 
+  
+}
+.tooltip span {
+  color: #29b325;
+}
+h4 {
+  
+  font-weight: italic;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+h5 {
+  margin-left: 380px;
+  padding-top: 80px;
+  font-weight: bold;
+
+  font-family: 'Lora', serif;
+}
+
+.form-group{
+  margin:10px;
+}
+.doublechart {
+  margin-left:50px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+.doublechart .right {
+  stroke: white;
+  fill: indianred;
+}
+
+.doublechart .left {
+  stroke: white;
+  fill: steelblue;
+  margin-left: 50px;
+}
+
+.doublechart rect:hover {
+  fill: #64707d;
+}
+
+.doublechart text {
+ 
+  font-family: 'Lora', serif;
+}
+
+.doublechart text.name {
+  fill: black;
+  font-family: 'Lora', serif;
+}
+
+.doublechart text.title {
+  fill: #020202;
+  font-family: 'Lora', serif;
+}

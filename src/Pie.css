@@ -1,0 +1,46 @@
+body
+{
+  background-color: 		#E8E8E8;
+}
+
+.navbar{ 
+  font-family: 'Lora', serif;
+}
+.navbar-nav {
+  align-items: center; 
+
+}
+
+.legend {
+  font-size: 14px;
+  font-family: 'Lora', serif !important;
+}
+rect {
+  cursor: pointer;
+  stroke-width: 2;
+}
+rect.disabled {
+  fill: transparent !important;
+}
+
+/* chart */  
+.pie-chart {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+.pie-chart svg {
+  margin-top: -120px;
+}
+.tooltip-abstract, .tooltip-fulltext {
+  font-family: 'Lora', serif;
+  background: #b3b7bd;
+  border: 1;
+  border-radius: 29px;
+}
+
+.selected {
+  fill: #17bf3c;
+}
+
